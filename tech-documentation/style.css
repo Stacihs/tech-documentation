@@ -1,3 +1,38 @@
 body {
     font-family: sans-serif;
 }
+
+p {
+    margin: 1em;
+    padding: .75em;
+}
+
+nav header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
+
+.nav-link {
+    display: flex;
+    font-size: 1.25;
+    padding: .25em;
+    text-decoration: none;
+}
+
+main header {
+    background-color: sandybrown;
+}
+
+.main-section {
+    background-color: royalblue;
+}
+
+main p {
+    background-color: seagreen;
+}
+
+main ul {
+    background-color: slategrey;
+}
