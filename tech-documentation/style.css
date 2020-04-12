@@ -1,25 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    position: absolute;
     font-family: sans-serif;
 }
 
-p {
-    margin: 1em;
-    padding: .75em;
+#navbar {
+    position: fixed;
+    height: 7em;
+    width: 100%;
+    background-color: rgb(216, 37, 240);
 }
 
 nav header {
+    height: 4em;
+    text-align: center;
+    background-color: darkred;
+}
+
+nav h1 {
+    padding-top: .75em;
+}
+
+nav p {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: rebeccapurple;
+    justify-content: space-around;
 }
 
 .nav-link {
-    display: flex;
-    font-size: 1.25;
-    padding: .25em;
+    font-size: 1.2em;
+    text-align: center;
     text-decoration: none;
+    background-color: chartreuse;
 }
+
+main {
+     margin-top: 7em;
+     background-color: darkslategrey;
+ }
 
 main header {
     background-color: sandybrown;
@@ -30,6 +52,8 @@ main header {
 }
 
 main p {
+    margin: 1em;
+    padding: .75em;
     background-color: seagreen;
 }
 
