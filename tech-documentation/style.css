@@ -1,4 +1,4 @@
-* {
+* { 
     padding: 0;
     margin: 0;
 }
@@ -12,13 +12,12 @@ body {
     position: fixed;
     height: 7em;
     width: 100%;
-    background-color: rgb(216, 37, 240);
+    background-color: rgb(142, 156, 236);
 }
 
 nav header {
     height: 4em;
     text-align: center;
-    background-color: darkred;
 }
 
 nav h1 {
@@ -28,35 +27,63 @@ nav h1 {
 nav p {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .nav-link {
     font-size: 1.2em;
     text-align: center;
     text-decoration: none;
-    background-color: chartreuse;
+    color: rgb(29, 70, 94);
+}
+
+.nav-link:hover {
+    color: rgb(231, 228, 53);
+}
+
+.nav-link:visited {
+    color: rebeccapurple;
 }
 
 main {
      margin-top: 7em;
-     background-color: darkslategrey;
  }
 
-main header {
-    background-color: sandybrown;
+h2 {
+    padding: .5em;
 }
 
 .main-section {
-    background-color: royalblue;
+    padding: .5em;
+
 }
 
-main p {
+main p, ul, blockquote {
     margin: 1em;
     padding: .75em;
-    background-color: seagreen;
 }
 
-main ul {
-    background-color: slategrey;
+li {
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 20px;
+    }
+    main {
+        padding: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: 2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: 3em;
+    }
 }
