@@ -1,3 +1,2 @@
 # tech-documentation
-FCC Project
-Required project to complete Free Code Camp's Responsive Web Design Certification.
+Free Code Camp project required to obtain Responsive Web Design Certification.
